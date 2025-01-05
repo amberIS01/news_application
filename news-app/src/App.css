@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar Styling */
+.navbar {
+  background: #212529;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f8f9fa !important;
+}
+
+/* Container Styling */
+.container {
+  margin: 30px auto;
+  max-width: 1200px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* General Button Styling */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Read More Button Styling */
+.read-more-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.read-more-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(33, 136, 56, 0.4);
+}
+
+/* Delete Button Styling */
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(200, 35, 51, 0.4);
+}
+
+/* Hover Effects for All Buttons */
+.btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Container for Button Alignment */
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: auto;
+}
